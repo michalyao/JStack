@@ -8,6 +8,8 @@
     "type": "git"
   },
   "author": "michalyao <yaoyao0777@Gmail.com>",
-  "license": "MIT"
-  
+  "license": "MIT",
+  "scripts": {
+    "start": "node ."
+  }
 }
