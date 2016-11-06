@@ -18,8 +18,8 @@ gulp.task('build', ['clean', 'lint'], () => gulp.src(paths.allSrcJs).pipe(babel(
 
 gulp.task('main', ['build'], (callback) => {
   exec(`node ${paths.libDir}`, (error, stdout) => {
-      console.log(stdout);
-      return callback(error);
+    console.log(stdout);
+    return callback(error);
   });
 });
 
