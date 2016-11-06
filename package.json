@@ -1,0 +1,12 @@
+{
+  "name": "JStack",
+  "version": "1.0.0",
+  "description": "learn js stack.",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/michalyao/JStack.git",
+    "type": "git"
+  },
+  "author": "michalyao <yaoyao0777@Gmail.com>",
+  "license": "MIT"
+}
