@@ -1,7 +1,7 @@
 const gulp = require('gulp');
 const babel = require('gulp-babel');
 const del = require('del')
-const exe = require('child_process').exec;
+const exec = require('child_process').exec;
 
 const paths = {
   allSrcJs: 'src/**/*.js',

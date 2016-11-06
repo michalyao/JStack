@@ -10,7 +10,7 @@
   "author": "michalyao <yaoyao0777@Gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node ."
+    "start": "gulp"
   },
   "babel": {
     "presets": [
