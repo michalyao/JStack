@@ -21,10 +21,10 @@
     "extends": "airbnb",
     "plugins": [
       "import"
-    ]
-  },
-  "env": {
-    "browser": true
+    ],
+    "env": {
+      "browser": true
+     }
   },
   "dependencies": {
     "babel-polyfill": "^6.16.0"
@@ -40,6 +40,7 @@
     "eslint-plugin-react": "^6.5.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
-    "gulp-eslint": "^3.0.1"
+    "gulp-eslint": "^3.0.1",
+    "webpack-stream": "^3.2.0"
   }
 }
