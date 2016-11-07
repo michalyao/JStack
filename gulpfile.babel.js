@@ -19,7 +19,7 @@ const paths = {
   clientBundle: 'dist/client-bundle.js?(.map)',
 };
 
-gulp.task('clean', () => del(paths.libDir));
+gulp.task('clean', () => del([paths.libDir, paths.clientBundle]));
 
 gulp.task('build', ['clean', 'lint'], () => gulp.src(paths.allSrcJs).pipe(babel()).pipe(gulp.dest(paths.libDir)));
 
