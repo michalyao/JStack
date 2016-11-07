@@ -10,6 +10,8 @@ const paths = {
   allSrcJs: 'src/**/*.js',
   libDir: 'lib',
   gulpFile: 'gulpfile.babel.js',
+  webpackFile: 'webpack.config.babel.js',
+  distDir: 'dist',
 };
 
 gulp.task('clean', () => del(paths.libDir));
@@ -28,7 +30,7 @@ gulp.task('watch', () => gulp.watch(paths.allSrcJs, ['main']));
 gulp.task('default', ['watch', 'main']);
 
 // eslint
-gulp.task('lint', () => gulp.src([paths.allSrcJs, paths.gulpFile])
+gulp.task('lint', () => gulp.src([paths.allSrcJs, paths.gulpFile, paths.webpackFile])
               .pipe(eslint())
               .pipe(eslint.format())
               .pipe(eslint.failAfterError()));
