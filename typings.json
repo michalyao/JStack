@@ -1,0 +1,5 @@
+{
+  "globalDevDependencies": {
+    "webpack-stream": "registry:dt/webpack-stream#3.2.0+20160728140255"
+  }
+}
