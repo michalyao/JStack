@@ -1,5 +1,9 @@
 {
   "globalDevDependencies": {
     "webpack-stream": "registry:dt/webpack-stream#3.2.0+20160728140255"
+  },
+  "globalDependencies": {
+    "react": "registry:dt/react#0.14.0+20161024223416",
+    "react-dom": "registry:dt/react-dom#0.14.0+20160412154040"
   }
 }
