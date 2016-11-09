@@ -3,6 +3,7 @@
     "webpack-stream": "registry:dt/webpack-stream#3.2.0+20160728140255"
   },
   "globalDependencies": {
+    "immutable": "registry:dt/immutable#3.8.1+20161028131303",
     "react": "registry:dt/react#0.14.0+20161024223416",
     "react-dom": "registry:dt/react-dom#0.14.0+20160412154040",
     "react-redux": "registry:dt/react-redux#4.4.0+20160908183346",
